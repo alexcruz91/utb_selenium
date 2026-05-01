@@ -1,0 +1,529 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\testprojectunit\\tests\\testcp04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|solutionrelative:testprojectunit\\tests\\testcp04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\testprojectunit\\tests\\testcp03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|solutionrelative:testprojectunit\\tests\\testcp03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\testprojectunit\\tests\\testcp02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|solutionrelative:testprojectunit\\tests\\testcp02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\testprojectunit\\tests\\testcp05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|solutionrelative:testprojectunit\\tests\\testcp05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\testprojectunit\\utilities\\waithelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|solutionrelative:testprojectunit\\utilities\\waithelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\testprojectunit\\pages\\registropage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|solutionrelative:testprojectunit\\pages\\registropage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\testprojectunit\\tests\\testcp01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|solutionrelative:testprojectunit\\tests\\testcp01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\testprojectunit\\base\\basetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|solutionrelative:testprojectunit\\base\\basetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\testprojectunit\\pages\\welcomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|solutionrelative:testprojectunit\\pages\\welcomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\testprojectunit\\models\\usuarioregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|solutionrelative:testprojectunit\\models\\usuarioregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\testprojectunit\\testprojectunit.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|solutionrelative:testprojectunit\\testprojectunit.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\pages\\contactos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\pages\\contactos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\pages\\contactos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\pages\\contactos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\models\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\models\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|c:\\users\\alejandro\\source\\repos\\pruebasmetricasproject\\pruebasmetricasproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-01T01:55:59.816Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistroPage.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Pages\\RegistroPage.cs",
+              "RelativeDocumentMoniker": "TestProjectUnit\\Pages\\RegistroPage.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Pages\\RegistroPage.cs",
+              "RelativeToolTip": "TestProjectUnit\\Pages\\RegistroPage.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T03:02:44.631Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestCP05.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Tests\\TestCP05.cs",
+              "RelativeDocumentMoniker": "TestProjectUnit\\Tests\\TestCP05.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Tests\\TestCP05.cs",
+              "RelativeToolTip": "TestProjectUnit\\Tests\\TestCP05.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T04:43:53.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestCP04.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Tests\\TestCP04.cs",
+              "RelativeDocumentMoniker": "TestProjectUnit\\Tests\\TestCP04.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Tests\\TestCP04.cs",
+              "RelativeToolTip": "TestProjectUnit\\Tests\\TestCP04.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T04:43:43.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestCP03.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Tests\\TestCP03.cs",
+              "RelativeDocumentMoniker": "TestProjectUnit\\Tests\\TestCP03.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Tests\\TestCP03.cs",
+              "RelativeToolTip": "TestProjectUnit\\Tests\\TestCP03.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T04:43:12.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestCP02.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Tests\\TestCP02.cs",
+              "RelativeDocumentMoniker": "TestProjectUnit\\Tests\\TestCP02.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Tests\\TestCP02.cs",
+              "RelativeToolTip": "TestProjectUnit\\Tests\\TestCP02.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T04:42:46.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TestProjectUnit",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\TestProjectUnit.csproj",
+              "RelativeDocumentMoniker": "TestProjectUnit\\TestProjectUnit.csproj",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\TestProjectUnit.csproj",
+              "RelativeToolTip": "TestProjectUnit\\TestProjectUnit.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-01T03:54:45.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WelcomePage.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Pages\\WelcomePage.cs",
+              "RelativeDocumentMoniker": "TestProjectUnit\\Pages\\WelcomePage.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Pages\\WelcomePage.cs",
+              "RelativeToolTip": "TestProjectUnit\\Pages\\WelcomePage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T03:17:35.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WaitHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Utilities\\WaitHelper.cs",
+              "RelativeDocumentMoniker": "TestProjectUnit\\Utilities\\WaitHelper.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Utilities\\WaitHelper.cs",
+              "RelativeToolTip": "TestProjectUnit\\Utilities\\WaitHelper.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T03:04:06.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TestCP01.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Tests\\TestCP01.cs",
+              "RelativeDocumentMoniker": "TestProjectUnit\\Tests\\TestCP01.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Tests\\TestCP01.cs",
+              "RelativeToolTip": "TestProjectUnit\\Tests\\TestCP01.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T03:03:10.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsuarioRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Models\\UsuarioRegistro.cs",
+              "RelativeDocumentMoniker": "TestProjectUnit\\Models\\UsuarioRegistro.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Models\\UsuarioRegistro.cs",
+              "RelativeToolTip": "TestProjectUnit\\Models\\UsuarioRegistro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T03:01:49.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseTest.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Base\\BaseTest.cs",
+              "RelativeDocumentMoniker": "TestProjectUnit\\Base\\BaseTest.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\TestProjectUnit\\Base\\BaseTest.cs",
+              "RelativeToolTip": "TestProjectUnit\\Base\\BaseTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T03:00:02.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-01T02:32:04.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAkwHUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T02:32:03.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "PruebasMetricasProject\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-01T02:07:57.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "PruebasMetricasProject\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-01T02:06:52.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PruebasMetricasProject\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-01T02:01:03.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAwGAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T01:56:31.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "PruebasMetricasProject\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-05-01T01:54:49.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "PruebasMetricasProject\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T01:49:43.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Pages\\Contactos\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Pages\\Contactos\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Pages\\Contactos\\Create.cshtml.cs",
+              "RelativeToolTip": "PruebasMetricasProject\\Pages\\Contactos\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwCQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T01:43:37.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Pages\\Contactos\\Create.cshtml",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Pages\\Contactos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Pages\\Contactos\\Create.cshtml",
+              "RelativeToolTip": "PruebasMetricasProject\\Pages\\Contactos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-01T01:42:27.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "PruebasMetricasProject\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-01T00:52:57.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Pages\\Index.cshtml",
+              "RelativeToolTip": "PruebasMetricasProject\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-01T02:08:24.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PruebasMetricasProject\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T01:28:49.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Contacto.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Models\\Contacto.cs",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Models\\Contacto.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Models\\Contacto.cs",
+              "RelativeToolTip": "PruebasMetricasProject\\Models\\Contacto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T01:26:12.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\appsettings.json",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\appsettings.json",
+              "RelativeToolTip": "PruebasMetricasProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-01T00:59:55.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Program.cs",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Program.cs",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Program.cs",
+              "RelativeToolTip": "PruebasMetricasProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T00:59:12.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "PruebasMetricasProject\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-01T00:52:55.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro\\source\\repos\\PruebasMetricasProject\\PruebasMetricasProject\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "PruebasMetricasProject\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-01T00:52:47.388Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

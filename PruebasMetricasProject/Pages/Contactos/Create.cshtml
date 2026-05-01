@@ -1,0 +1,43 @@
+﻿@page
+@model PruebasMetricasProject.Pages.Contactos.CreateModel
+@{
+    <h2>Formulario de Contacto</h2>
+
+    <form method="post">
+
+        <div class="mb-3">
+            <label>Nombre</label>
+            <input asp-for="Contacto.Nombre" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Apellido</label>
+            <input asp-for="Contacto.Apellido" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Correo</label>
+            <input asp-for="Contacto.Correo" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>País</label>
+            <input asp-for="Contacto.Pais" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Ciudad</label>
+            <input asp-for="Contacto.Ciudad" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Teléfono</label>
+            <input asp-for="Contacto.Telefono" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+            Guardar
+        </button>
+
+    </form>
+}
