@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
@@ -8,11 +9,13 @@ namespace PruebasMetricasProject.Migrations
     /// <inheritdoc />
     public partial class InitialSQLite : Migration
     {
+        private const string tablaroles = "AspNetRoles";
+        private const string tablausers = "AspNetUsers";
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "AspNetRoles",
+                name: tablaroles,
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "TEXT", nullable: false),
@@ -26,7 +29,7 @@ namespace PruebasMetricasProject.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "AspNetUsers",
+                name: tablausers,
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "TEXT", nullable: false),
@@ -66,7 +69,7 @@ namespace PruebasMetricasProject.Migrations
                     table.ForeignKey(
                         name: "FK_AspNetRoleClaims_AspNetRoles_RoleId",
                         column: x => x.RoleId,
-                        principalTable: "AspNetRoles",
+                        principalTable: tablaroles,
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -87,7 +90,7 @@ namespace PruebasMetricasProject.Migrations
                     table.ForeignKey(
                         name: "FK_AspNetUserClaims_AspNetUsers_UserId",
                         column: x => x.UserId,
-                        principalTable: "AspNetUsers",
+                        principalTable: tablausers,
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -107,7 +110,7 @@ namespace PruebasMetricasProject.Migrations
                     table.ForeignKey(
                         name: "FK_AspNetUserLogins_AspNetUsers_UserId",
                         column: x => x.UserId,
-                        principalTable: "AspNetUsers",
+                        principalTable: tablausers,
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -125,13 +128,13 @@ namespace PruebasMetricasProject.Migrations
                     table.ForeignKey(
                         name: "FK_AspNetUserRoles_AspNetRoles_RoleId",
                         column: x => x.RoleId,
-                        principalTable: "AspNetRoles",
+                        principalTable: tablaroles,
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_AspNetUserRoles_AspNetUsers_UserId",
                         column: x => x.UserId,
-                        principalTable: "AspNetUsers",
+                        principalTable: tablausers,
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -151,7 +154,7 @@ namespace PruebasMetricasProject.Migrations
                     table.ForeignKey(
                         name: "FK_AspNetUserTokens_AspNetUsers_UserId",
                         column: x => x.UserId,
-                        principalTable: "AspNetUsers",
+                        principalTable: tablausers,
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -163,7 +166,7 @@ namespace PruebasMetricasProject.Migrations
 
             migrationBuilder.CreateIndex(
                 name: "RoleNameIndex",
-                table: "AspNetRoles",
+                table:tablaroles,
                 column: "NormalizedName",
                 unique: true);
 
@@ -184,12 +187,12 @@ namespace PruebasMetricasProject.Migrations
 
             migrationBuilder.CreateIndex(
                 name: "EmailIndex",
-                table: "AspNetUsers",
+                table: tablausers,
                 column: "NormalizedEmail");
 
             migrationBuilder.CreateIndex(
                 name: "UserNameIndex",
-                table: "AspNetUsers",
+                table: tablausers,
                 column: "NormalizedUserName",
                 unique: true);
         }
@@ -213,10 +216,10 @@ namespace PruebasMetricasProject.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "AspNetRoles");
+                name: tablaroles);
 
             migrationBuilder.DropTable(
-                name: "AspNetUsers");
+                name: tablausers);
         }
     }
 }

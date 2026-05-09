@@ -166,7 +166,7 @@ namespace PruebasMetricasProject.Areas.Identity.Pages.Account
             return Page();
         }
 
-        private ApplicationUser CreateUser()
+        private static ApplicationUser CreateUser()
         {
             try
             {

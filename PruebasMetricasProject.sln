@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36705.20
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11723.231 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebasMetricasProject", "PruebasMetricasProject\PruebasMetricasProject.csproj", "{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}"
 EndProject

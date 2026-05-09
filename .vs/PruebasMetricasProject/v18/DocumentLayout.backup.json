@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Codigos Fuente\\SELENIUM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|d:\\codigos fuente\\selenium\\pruebasmetricasproject\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|d:\\codigos fuente\\selenium\\pruebasmetricasproject\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E95EB775-D568-4A93-B7B3-CDEF1A09EC5D}|PruebasMetricasProject\\PruebasMetricasProject.csproj|solutionrelative:pruebasmetricasproject\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Codigos Fuente\\SELENIUM\\PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Codigos Fuente\\SELENIUM\\PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAC0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T03:15:36.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Codigos Fuente\\SELENIUM\\PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Codigos Fuente\\SELENIUM\\PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T03:15:35.947Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

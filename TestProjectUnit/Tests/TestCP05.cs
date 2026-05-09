@@ -17,9 +17,8 @@ namespace TestProjectUnit.Tests
         public void ValidacionBtnRegistrar()
         {
             var registroPage = new RegistroPage(driver);
-            var welcomePage = new WelcomePage(driver);
             //CASO DE PRUEBA CP05: Validacion Boton Registrar
-            UsuarioRegistro usuarioRegistro = new UsuarioRegistro();
+            UsuarioRegistro usuarioRegistro = new ();
             usuarioRegistro.Nombres = "";
             usuarioRegistro.Apellidos = "";
             usuarioRegistro.Correo = "";
@@ -27,8 +26,6 @@ namespace TestProjectUnit.Tests
             usuarioRegistro.ConfirmPassword = "";
 
             registroPage.Registrar(usuarioRegistro);
-
-            //var welcome = new WelcomePage(driver);
 
             WebDriverWait wait = new WebDriverWait(driver,TimeSpan.FromSeconds(10));
 

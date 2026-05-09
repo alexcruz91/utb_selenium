@@ -17,9 +17,8 @@ namespace TestProjectUnit.Tests
         public void CorreoRegistrado()
         {
             var registroPage = new RegistroPage(driver);
-            var welcomePage = new WelcomePage(driver);
             //CASO DE PRUEBA CP04: Validación de correo electrónico ya registrado
-            UsuarioRegistro usuarioRegistro = new UsuarioRegistro();
+            UsuarioRegistro usuarioRegistro = new ();
             usuarioRegistro.Nombres = "Carla Tatiana";
             usuarioRegistro.Apellidos = "Ríos";
             usuarioRegistro.Correo = "carlarios@outlook.com";
@@ -28,7 +27,6 @@ namespace TestProjectUnit.Tests
 
             registroPage.Registrar(usuarioRegistro);
 
-            //var mensaje = driver.FindElement(By.Id("correo-error")).Text;
             var mensaje = WaitHelper.WaitForElement(driver, By.ClassName("validation-summary-errors")).Text;
 
             Assert.That(mensaje, Does.Contain("is already taken."));
