@@ -51,8 +51,7 @@
               "RelativeToolTip": "PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T03:41:31.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T03:41:31.483Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "PruebasMetricasProject\\Migrations\\20260501015947_AgregarNombreApellidoUsuario.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T03:41:26.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T03:41:26.17Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "PruebasMetricasProject\\Migrations\\20260501011653_InitialSQLite.cs",
               "ViewState": "AgIAANUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T03:41:14.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T03:41:14.251Z"
             }
           ]
         }

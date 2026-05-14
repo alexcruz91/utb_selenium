@@ -1,1 +1,0 @@
-\ROD:\Codigos Fuente\SELENIUM\PruebasMetricasProject\PruebasMetricasProject.csprojòCSharp12
