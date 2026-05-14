@@ -37,7 +37,7 @@ pipeline {
             steps {
                 withSonarQubeEnv('SonarQubeServer') {
                     bat '''
-                    dotnet sonarscanner begin /k:"mi_proyecto"
+                    dotnet sonarscanner begin /k:"utb-selenium"
                     dotnet build
                     dotnet sonarscanner end
                     '''
