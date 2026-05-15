@@ -51,15 +51,17 @@ pipeline {
         }
 
         stage('SonarQube Analysis') {
-            steps {
-                withSonarQubeEnv('SonarQubeServer') {
-                    bat '''
-                    dotnet sonarscanner begin /k:"utb-selenium"
-                    dotnet build
-                    dotnet sonarscanner end
-                    '''
-                }
-            }
-        }
+			steps {
+				withSonarQubeEnv('SonarQubeServer') {
+					withCredentials([string(credentialsId: 'sonar-token', variable: 'SONAR_TOKEN')]) {
+						bat '''
+						dotnet sonarscanner begin /k:"utb-selenium" /d:sonar.host.url=%SONAR_HOST_URL% /d:sonar.token=%SONAR_TOKEN%
+						dotnet build
+						dotnet sonarscanner end /d:sonar.token=%SONAR_TOKEN%
+						'''
+					}
+				}
+			}
+		}
     }
 }
