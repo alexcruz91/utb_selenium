@@ -55,9 +55,10 @@ pipeline {
 				withSonarQubeEnv('SonarQubeServer') {
 					withCredentials([string(credentialsId: 'sonar-token', variable: 'SONAR_TOKEN')]) {
 						bat '''
-						"C:\Users\AlexanderCruz\.dotnet\tools\dotnet-sonarscanner.exe" begin /k:"utb-selenium" /d:sonar.host.url=%SONAR_HOST_URL% /d:sonar.token=%SONAR_TOKEN%
+						SET SONAR_SCANNER=C:\\Users\\AlexanderCruz\\.dotnet\\tools\\dotnet-sonarscanner.exe
+						%SONAR_SCANNER% begin /k:"utb-selenium" /d:sonar.host.url=%SONAR_HOST_URL% /d:sonar.token=%SONAR_TOKEN%
 						dotnet build
-						dotnet sonarscanner end /d:sonar.token=%SONAR_TOKEN%
+						%SONAR_SCANNER% end /d:sonar.token=%SONAR_TOKEN%
 						'''
 					}
 				}
