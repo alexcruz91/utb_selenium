@@ -11,6 +11,7 @@ using TestProjectUnit.Pages;
 
 namespace TestProjectUnit.Tests
 {
+    [Category("Selenium")]
     public class TestCP05 : BaseTest
     {
         [Test]

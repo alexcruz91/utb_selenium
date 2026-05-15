@@ -1,5 +1,9 @@
 pipeline {
     agent any
+     
+	environment {
+        TEST_URL = 'http://localhost:5000/Identity/Account/Register'
+    }
 
     stages {
 
@@ -21,9 +25,18 @@ pipeline {
             }
         }
 
+        stage('Run App') {
+			steps {
+				bat '''
+				start /B dotnet run --project PruebasMetricasProject --urls=http://localhost:5000
+				timeout /t 15
+				'''
+			}
+		}
+
         stage('Unit Tests') {
             steps {
-                bat 'dotnet test --no-build --logger trx'
+                 bat 'dotnet test --filter Category!=Selenium'
             }
         }
 

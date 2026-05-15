@@ -575,3 +575,4 @@ D:\Codigos Fuente\SELENIUM\PruebasMetricasProject\obj\Debug\net8.0\refint\Prueba
 D:\Codigos Fuente\SELENIUM\PruebasMetricasProject\obj\Debug\net8.0\PruebasMetricasProject.pdb
 D:\Codigos Fuente\SELENIUM\PruebasMetricasProject\obj\Debug\net8.0\PruebasMetricasProject.genruntimeconfig.cache
 D:\Codigos Fuente\SELENIUM\PruebasMetricasProject\obj\Debug\net8.0\ref\PruebasMetricasProject.dll
+D:\Codigos Fuente\SELENIUM\PruebasMetricasProject\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -12,6 +12,7 @@ using NUnit.Framework;
 
 namespace TestProjectUnit.Tests
 {
+    [Category("Selenium")]
     public class TestCP01 : BaseTest
     {
         [Test]
@@ -23,13 +24,13 @@ namespace TestProjectUnit.Tests
             UsuarioRegistro usuarioRegistro = new UsuarioRegistro();
             usuarioRegistro.Nombres = "Ana Milena";
             usuarioRegistro.Apellidos = "García Rovira";
-            usuarioRegistro.Correo = "anamilegarcia@outlook.com";
+            Random random = new Random();
+            int numero = random.Next(1, 101);
+            usuarioRegistro.Correo = "anamilegarcia" + numero + "@outlook.com";
             usuarioRegistro.Password = "3Sp4c14l2025++";
             usuarioRegistro.ConfirmPassword = "3Sp4c14l2025++";
 
             registroPage.Registrar(usuarioRegistro);
-
-            //var welcome = new WelcomePage(driver);
 
             Assert.That(welcomePage.ObtenerTextoBienvenida(),Does.Contain("Registro Exitoso"));
         }

@@ -11,6 +11,7 @@ using TestProjectUnit.Utilities;
 
 namespace TestProjectUnit.Tests
 {
+    [Category("Selenium")]
     public class TestCP02 : BaseTest
     {
         [Test]

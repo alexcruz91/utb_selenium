@@ -1,10 +1,5 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TestProjectUnit.Base
 {
@@ -15,7 +10,8 @@ namespace TestProjectUnit.Base
         [SetUp]
         public void Setup()
         {
-            string url = "https://localhost:44387/Identity/Account/Register";
+            string url = Environment.GetEnvironmentVariable("TEST_URL")
+             ?? "https://localhost:44387/Identity/Account/Register";
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl(url);
