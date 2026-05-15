@@ -29,7 +29,7 @@ pipeline {
 			steps {
 				bat '''
 				start /B dotnet run --project PruebasMetricasProject --urls=http://localhost:5000
-				timeout /t 15
+				ping 127.0.0.1 -n 15 > nul
 				'''
 			}
 		}
