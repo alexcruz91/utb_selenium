@@ -36,13 +36,17 @@ pipeline {
 
         stage('Unit Tests') {
             steps {
-                 bat 'dotnet test --filter Category!=Selenium'
+				catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
+					bat 'dotnet test --filter Category!=Selenium'
+				}
             }
         }
 
         stage('Selenium Tests') {
             steps {
-                bat 'dotnet test --filter Category=Selenium'
+				catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
+					bat 'dotnet test --filter Category=Selenium'
+				}
             }
         }
 

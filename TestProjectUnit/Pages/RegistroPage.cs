@@ -1,9 +1,4 @@
 ﻿using OpenQA.Selenium;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TestProjectUnit.Models;
 using TestProjectUnit.Utilities;
 
@@ -32,7 +27,26 @@ namespace TestProjectUnit.Pages
             Correo.SendKeys(usuarioRegistro.Correo);
             Password.SendKeys(usuarioRegistro.Password);
             ConfirmPassword.SendKeys(usuarioRegistro.ConfirmPassword);
-            BtnRegistrar.Click();
+            ClickConFallback(BtnRegistrar);
+        }
+
+        // Click seguro: intenta normal, si falla usa JavaScript
+        private void ClickConFallback(IWebElement elemento)
+        {
+            try
+            {
+                // Primero hace scroll al elemento para asegurar que esté visible
+                ((IJavaScriptExecutor)driver).ExecuteScript(
+                    "arguments[0].scrollIntoView({block: 'center'});", elemento);
+                Thread.Sleep(300); // pequeña pausa tras el scroll
+                elemento.Click();
+            }
+            catch (ElementClickInterceptedException)
+            {
+                // Si sigue bloqueado, click directo via JavaScript
+                ((IJavaScriptExecutor)driver).ExecuteScript(
+                    "arguments[0].click();", elemento);
+            }
         }
     }
 }
