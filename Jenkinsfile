@@ -1,15 +1,15 @@
 pipeline {
     agent any
-     
-	environment {
-        TEST_URL = 'http://localhost:5000/Identity/Account/Register'
+
+    environment {
+        DOTNET_CLI_TELEMETRY_OPTOUT = '1'
     }
 
     stages {
 
         stage('Checkout') {
             steps {
-                checkout scm
+                git branch: 'main', url: 'https://github.com/alexcruz91/utb_selenium.git'
             }
         }
 
@@ -19,64 +19,80 @@ pipeline {
             }
         }
 
-        stage('Build') {
+        stage('SonarQube Analysis + Coverage') {
             steps {
-                bat 'dotnet build --no-restore'
-            }
-        }
+                withSonarQubeEnv('SonarQubeServer') {
+                    withCredentials([string(credentialsId: 'sonar-token', variable: 'SONAR_TOKEN')]) {
+                        bat '''
+                        echo ================================
+                        echo INICIANDO ANALISIS SONAR
+                        echo ================================
 
-        stage('Run App') {
-			steps {
-				bat '''
-				start /B dotnet run --project PruebasMetricasProject --urls=http://localhost:5000
-				ping 127.0.0.1 -n 15 > nul
-				'''
-			}
-		}
+                        dotnet sonarscanner begin ^
+                        /k:"utb-selenium" ^
+                        /d:sonar.host.url=%SONAR_HOST_URL% ^
+                        /d:sonar.token=%SONAR_TOKEN% ^
+                        /d:sonar.cs.opencover.reportsPaths="**/coverage.opencover.xml" ^
+                        /d:sonar.exclusions="**/CoverageReport/**,**/*.html,**/*Selenium*/**"
 
-        stage('Unit Tests') {
-            steps {
-				catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
-					bat 'dotnet test --filter Category!=Selenium'
-				}
+                        dotnet build --no-restore
+
+                        dotnet test ".\\TestPruebasSonarqube\\TestPruebasSonarqube.csproj" ^
+                        /p:CollectCoverage=true ^
+                        /p:CoverletOutputFormat=opencover ^
+                        /p:CoverletOutput="TestPruebasSonarqube\\coverage\\coverage.opencover.xml"
+
+                        echo ================================
+                        echo VALIDANDO COVERAGE
+                        echo ================================
+                        dir TestPruebasSonarqube\\coverage
+
+                        dotnet sonarscanner end ^
+                        /d:sonar.token=%SONAR_TOKEN%
+                        '''
+                    }
+                }
             }
         }
 
         stage('Selenium Tests') {
             steps {
-				catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
-					bat 'dotnet test --filter Category=Selenium'
-				}
+                bat '''
+                echo ================================
+                echo INICIANDO APP PARA SELENIUM
+                echo ================================
+
+                start /B dotnet run --project PruebasMetricasProject --urls=http://localhost:5000
+
+                echo Esperando que la app inicie...
+                ping 127.0.0.1 -n 10 > nul
+
+                echo ================================
+                echo EJECUTANDO TESTS SELENIUM
+                echo ================================
+
+                dotnet test --filter Category=Selenium
+
+                echo ================================
+                echo DETENIENDO APP
+                echo ================================
+
+                taskkill /IM PruebasMetricasProject.exe /F || exit 0
+                '''
             }
         }
 
-        stage('SonarQube Analysis') {
-			steps {
-				withSonarQubeEnv('SonarQubeServer') {
-					withCredentials([string(credentialsId: 'sonar-token', variable: 'SONAR_TOKEN')]) {
-						bat '''
-						SET SONAR_SCANNER=C:\\Users\\AlexanderCruz\\.dotnet\\tools\\dotnet-sonarscanner.exe
+    }
 
-						%SONAR_SCANNER% begin ^
-						/k:"utb-selenium" ^
-						/d:sonar.host.url=%SONAR_HOST_URL% ^
-						/d:sonar.token=%SONAR_TOKEN% ^
-						/d:sonar.cs.opencover.reportsPaths="**/coverage.opencover.xml" ^
-						/d:sonar.exclusions="**/CoverageReport/**,**/*.html,**/*Selenium*/**"
-
-						dotnet build
-
-						dotnet test ".\\TestPruebasSonarqube\\TestPruebasSonarqube.csproj" ^
-						/p:CollectCoverage=true ^
-						/p:CoverletOutputFormat=opencover ^
-						/p:CoverletOutput="TestPruebasSonarqube\\coverage\\coverage.opencover.xml"
-
-						%SONAR_SCANNER% end ^
-						/d:sonar.token=%SONAR_TOKEN%
-						'''
-					}
-				}
-			}
-		}
+    post {
+        always {
+            echo 'Pipeline finalizado'
+        }
+        success {
+            echo 'Build exitoso'
+        }
+        failure {
+            echo 'Build fallido'
+        }
     }
 }
