@@ -55,46 +55,22 @@ pipeline {
             }
         }
 
-        stage('Selenium Tests') {
+        stage('Run App') {
 			steps {
-				bat 'start /B dotnet run --project PruebasMetricasProject --urls=http://localhost:5000 --no-build > app_output.log 2>&1'
-
-				powershell '''
-					$timeout = 120
-					$elapsed = 0
-					Write-Host "Esperando que la app responda en http://localhost:5000..."
-					do {
-						Start-Sleep -Seconds 3
-						$elapsed += 3
-						try {
-							Invoke-WebRequest http://localhost:5000 -UseBasicParsing -TimeoutSec 2 | Out-Null
-							Write-Host "App lista! ($elapsed s)"
-							exit 0
-						} catch {
-							Write-Host "Esperando... ($elapsed s)"
-						}
-					} while ($elapsed -lt $timeout)
-					Write-Host "--- LOG DE LA APP ---"
-					Get-Content app_output.log -ErrorAction SilentlyContinue
-					Write-Host "Timeout: la app no respondio en $timeout segundos"
-					exit 1
-				'''
-
 				bat '''
-				echo ================================
-				echo EJECUTANDO TESTS SELENIUM
-				echo ================================
-
-				dotnet test ".\\TestProjectUnit\\TestProjectUnit.csproj" --filter Category=Selenium
-
-				echo ================================
-				echo DETENIENDO APP
-				echo ================================
-
-				taskkill /IM PruebasMetricasProject.exe /F || exit 0
+				start /B dotnet run --project PruebasMetricasProject --urls=http://localhost:5000
+				ping 127.0.0.1 -n 15 > nul
 				'''
 			}
-		}
+		}  
+
+        stage('Selenium Tests') {
+            steps {
+				catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
+					bat 'dotnet test --filter Category=Selenium'
+				}
+            }
+        }
     }
 
     post {
