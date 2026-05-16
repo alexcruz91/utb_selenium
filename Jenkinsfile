@@ -57,35 +57,31 @@ pipeline {
 
         stage('Selenium Tests') {
             steps {
-                // Escribir el script de espera como archivo .ps1 para evitar problemas de comillas
-                writeFile file: 'wait-for-app.ps1', text: '''
-$timeout = 120
-$elapsed = 0
-Write-Host "Esperando que la app responda en http://localhost:5000..."
-do {
-    Start-Sleep -Seconds 3
-    $elapsed += 3
-    try {
-        Invoke-WebRequest http://localhost:5000 -UseBasicParsing -TimeoutSec 2 | Out-Null
-        Write-Host "App lista! ($elapsed s)"
-        exit 0
-    } catch {
-        Write-Host "Esperando... ($elapsed s)"
-    }
-} while ($elapsed -lt $timeout)
-Write-Host "Timeout: la app no respondio en $timeout segundos"
-exit 1
-'''
+                // 1. Arrancar la app en background
+                bat 'start /B dotnet run --project PruebasMetricasProject --urls=http://localhost:5000 --no-build'
+
+                // 2. Esperar con el step nativo powershell de Jenkins (sin problemas de escaping)
+                powershell '''
+                    $timeout = 120
+                    $elapsed = 0
+                    Write-Host "Esperando que la app responda en http://localhost:5000..."
+                    do {
+                        Start-Sleep -Seconds 3
+                        $elapsed += 3
+                        try {
+                            Invoke-WebRequest http://localhost:5000 -UseBasicParsing -TimeoutSec 2 | Out-Null
+                            Write-Host "App lista! ($elapsed s)"
+                            exit 0
+                        } catch {
+                            Write-Host "Esperando... ($elapsed s)"
+                        }
+                    } while ($elapsed -lt $timeout)
+                    Write-Host "Timeout: la app no respondio en $timeout segundos"
+                    exit 1
+                '''
+
+                // 3. Ejecutar tests Selenium
                 bat '''
-                echo ================================
-                echo INICIANDO APP PARA SELENIUM
-                echo ================================
-
-                start /B dotnet run --project PruebasMetricasProject --urls=http://localhost:5000 --no-build
-
-                powershell -ExecutionPolicy Bypass -File wait-for-app.ps1
-                if errorlevel 1 exit 1
-
                 echo ================================
                 echo EJECUTANDO TESTS SELENIUM
                 echo ================================
