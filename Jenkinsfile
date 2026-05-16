@@ -28,7 +28,7 @@ pipeline {
                         echo INICIANDO ANALISIS SONAR
                         echo ================================
 
-                        dotnet sonarscanner begin ^
+                        "C:\\Users\\AlexanderCruz\\.dotnet\\tools\\dotnet-sonarscanner" begin ^
                         /k:"utb-selenium" ^
                         /d:sonar.host.url=%SONAR_HOST_URL% ^
                         /d:sonar.token=%SONAR_TOKEN% ^
@@ -40,14 +40,14 @@ pipeline {
                         dotnet test ".\\TestPruebasSonarqube\\TestPruebasSonarqube.csproj" ^
                         /p:CollectCoverage=true ^
                         /p:CoverletOutputFormat=opencover ^
-                        /p:CoverletOutput="TestPruebasSonarqube\\coverage\\coverage.opencover.xml"
+                        /p:CoverletOutput=".\\coverage\\coverage.opencover.xml"
 
                         echo ================================
                         echo VALIDANDO COVERAGE
                         echo ================================
                         dir TestPruebasSonarqube\\coverage
 
-                        dotnet sonarscanner end ^
+                        "C:\\Users\\AlexanderCruz\\.dotnet\\tools\\dotnet-sonarscanner" end ^
                         /d:sonar.token=%SONAR_TOKEN%
                         '''
                     }
