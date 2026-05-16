@@ -1,0 +1,19 @@
+﻿D:\Codigos Fuente\SELENIUM\TestProjectUnit\Base\BaseTest.cs
+D:\Codigos Fuente\SELENIUM\TestProjectUnit\Models\UsuarioRegistro.cs
+D:\Codigos Fuente\SELENIUM\TestProjectUnit\Pages\RegistroPage.cs
+D:\Codigos Fuente\SELENIUM\TestProjectUnit\Pages\WelcomePage.cs
+D:\Codigos Fuente\SELENIUM\TestProjectUnit\Tests\TestCP01.cs
+D:\Codigos Fuente\SELENIUM\TestProjectUnit\Tests\TestCP02.cs
+D:\Codigos Fuente\SELENIUM\TestProjectUnit\Tests\TestCP03.cs
+D:\Codigos Fuente\SELENIUM\TestProjectUnit\Tests\TestCP04.cs
+D:\Codigos Fuente\SELENIUM\TestProjectUnit\Tests\TestCP05.cs
+D:\Codigos Fuente\SELENIUM\TestProjectUnit\Utilities\WaitHelper.cs
+C:\Users\AlexanderCruz\.nuget\packages\microsoft.net.test.sdk\17.10.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs
+C:\Users\AlexanderCruz\.nuget\packages\microsoft.testplatform.testhost\17.10.0\build\netcoreapp3.1\x64\testhost.exe
+C:\Users\AlexanderCruz\.nuget\packages\microsoft.testplatform.testhost\17.10.0\build\netcoreapp3.1\x64\testhost.dll
+C:\Users\AlexanderCruz\.nuget\packages\nunit3testadapter\4.6.0\build\netcoreapp3.1\NUnit3.TestAdapter.dll
+C:\Users\AlexanderCruz\.nuget\packages\nunit3testadapter\4.6.0\build\netcoreapp3.1\NUnit3.TestAdapter.pdb
+C:\Users\AlexanderCruz\.nuget\packages\nunit3testadapter\4.6.0\build\netcoreapp3.1\nunit.engine.dll
+C:\Users\AlexanderCruz\.nuget\packages\nunit3testadapter\4.6.0\build\netcoreapp3.1\nunit.engine.api.dll
+C:\Users\AlexanderCruz\.nuget\packages\nunit3testadapter\4.6.0\build\netcoreapp3.1\nunit.engine.core.dll
+C:\Users\AlexanderCruz\.nuget\packages\nunit3testadapter\4.6.0\build\netcoreapp3.1\testcentric.engine.metadata.dll

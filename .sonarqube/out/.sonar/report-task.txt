@@ -1,0 +1,6 @@
+projectKey=UTB_Metricas
+serverUrl=http://localhost:9000
+serverVersion=26.4.0.121862
+dashboardUrl=http://localhost:9000/dashboard?id=UTB_Metricas
+ceTaskId=edba09ae-f2aa-446b-abab-f4eb1ea9ce5c
+ceTaskUrl=http://localhost:9000/api/ce/task?id=edba09ae-f2aa-446b-abab-f4eb1ea9ce5c

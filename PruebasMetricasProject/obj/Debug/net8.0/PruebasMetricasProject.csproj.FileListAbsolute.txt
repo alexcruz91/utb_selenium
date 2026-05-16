@@ -575,7 +575,6 @@ D:\Codigos Fuente\SELENIUM\PruebasMetricasProject\obj\Debug\net8.0\refint\Prueba
 D:\Codigos Fuente\SELENIUM\PruebasMetricasProject\obj\Debug\net8.0\PruebasMetricasProject.pdb
 D:\Codigos Fuente\SELENIUM\PruebasMetricasProject\obj\Debug\net8.0\PruebasMetricasProject.genruntimeconfig.cache
 D:\Codigos Fuente\SELENIUM\PruebasMetricasProject\obj\Debug\net8.0\ref\PruebasMetricasProject.dll
-D:\Codigos Fuente\SELENIUM\PruebasMetricasProject\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Alejandro\Downloads\pruebasproyecto\PruebasMetricasProject\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Alejandro\Downloads\pruebasproyecto\PruebasMetricasProject\bin\Debug\net8.0\appsettings.json
 C:\Users\Alejandro\Downloads\pruebasproyecto\PruebasMetricasProject\bin\Debug\net8.0\PruebasMetricasProject.staticwebassets.runtime.json
