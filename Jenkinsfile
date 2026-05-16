@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         DOTNET_CLI_TELEMETRY_OPTOUT = '1'
+		TEST_URL = 'http://localhost:5000/Identity/Account/Register'
     }
 
     stages {
