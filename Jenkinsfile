@@ -55,22 +55,22 @@ pipeline {
             }
         }
 
-        stage('Run App') {
+       stage('Run App') {
 			steps {
 				bat '''
 				start /B dotnet run --project PruebasMetricasProject --urls=http://localhost:5000
 				ping 127.0.0.1 -n 15 > nul
 				'''
 			}
-		}  
+		}
 
-        stage('Selenium Tests') {
-            steps {
+		stage('Selenium Tests') {
+			steps {
 				catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
-					bat 'dotnet test --filter Category=Selenium'
+					bat 'dotnet test ".\\TestProjectUnit\\TestProjectUnit.csproj" --filter Category=Selenium'
 				}
-            }
-        }
+			}
+		}
     }
 
     post {

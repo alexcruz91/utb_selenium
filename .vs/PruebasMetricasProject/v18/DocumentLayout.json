@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Codigos Fuente\\SELENIUM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DAB1C65-74CA-426B-BB66-10D85D8174D2}|TestPruebasSonarqube\\TestPruebasSonarqube.csproj|d:\\codigos fuente\\selenium\\testpruebassonarqube\\loginmodeltestunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DAB1C65-74CA-426B-BB66-10D85D8174D2}|TestPruebasSonarqube\\TestPruebasSonarqube.csproj|solutionrelative:testpruebassonarqube\\loginmodeltestunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|d:\\codigos fuente\\selenium\\testprojectunit\\tests\\testcp03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|solutionrelative:testprojectunit\\tests\\testcp03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|d:\\codigos fuente\\selenium\\testprojectunit\\tests\\testcp04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|solutionrelative:testprojectunit\\tests\\testcp04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|d:\\codigos fuente\\selenium\\testprojectunit\\pages\\registropage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|d:\\codigos fuente\\selenium\\testprojectunit\\tests\\testcp05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|solutionrelative:testprojectunit\\tests\\testcp05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|d:\\codigos fuente\\selenium\\testprojectunit\\tests\\testcp04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|solutionrelative:testprojectunit\\tests\\testcp04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|d:\\codigos fuente\\selenium\\testprojectunit\\tests\\testcp03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|solutionrelative:testprojectunit\\tests\\testcp03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B143871-9A28-47DF-9D2D-43028BE24DDA}|TestProjectUnit\\TestProjectUnit.csproj|d:\\codigos fuente\\selenium\\testprojectunit\\tests\\testcp02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,28 +54,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginModelTestUnit.cs",
-              "DocumentMoniker": "D:\\Codigos Fuente\\SELENIUM\\TestPruebasSonarqube\\LoginModelTestUnit.cs",
-              "RelativeDocumentMoniker": "TestPruebasSonarqube\\LoginModelTestUnit.cs",
-              "ToolTip": "D:\\Codigos Fuente\\SELENIUM\\TestPruebasSonarqube\\LoginModelTestUnit.cs",
-              "RelativeToolTip": "TestPruebasSonarqube\\LoginModelTestUnit.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T03:26:01.412Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RegistroPage.cs",
               "DocumentMoniker": "D:\\Codigos Fuente\\SELENIUM\\TestProjectUnit\\Pages\\RegistroPage.cs",
               "RelativeDocumentMoniker": "TestProjectUnit\\Pages\\RegistroPage.cs",
@@ -87,12 +70,11 @@
               "RelativeToolTip": "TestProjectUnit\\Pages\\RegistroPage.cs",
               "ViewState": "AgIAABEAAAAAAAAAAIA3wB0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T03:19:04.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-15T03:19:04.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "TestCP04.cs",
               "DocumentMoniker": "D:\\Codigos Fuente\\SELENIUM\\TestProjectUnit\\Tests\\TestCP04.cs",
               "RelativeDocumentMoniker": "TestProjectUnit\\Tests\\TestCP04.cs",
@@ -100,11 +82,12 @@
               "RelativeToolTip": "TestProjectUnit\\Tests\\TestCP04.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T02:28:27.46Z"
+              "WhenOpened": "2026-05-15T02:28:27.46Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "TestCP03.cs",
               "DocumentMoniker": "D:\\Codigos Fuente\\SELENIUM\\TestProjectUnit\\Tests\\TestCP03.cs",
               "RelativeDocumentMoniker": "TestProjectUnit\\Tests\\TestCP03.cs",
@@ -112,11 +95,12 @@
               "RelativeToolTip": "TestProjectUnit\\Tests\\TestCP03.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T02:28:10.797Z"
+              "WhenOpened": "2026-05-15T02:28:10.797Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "TestCP02.cs",
               "DocumentMoniker": "D:\\Codigos Fuente\\SELENIUM\\TestProjectUnit\\Tests\\TestCP02.cs",
               "RelativeDocumentMoniker": "TestProjectUnit\\Tests\\TestCP02.cs",
@@ -128,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TestCP01.cs",
               "DocumentMoniker": "D:\\Codigos Fuente\\SELENIUM\\TestProjectUnit\\Tests\\TestCP01.cs",
               "RelativeDocumentMoniker": "TestProjectUnit\\Tests\\TestCP01.cs",
@@ -140,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BaseTest.cs",
               "DocumentMoniker": "D:\\Codigos Fuente\\SELENIUM\\TestProjectUnit\\Base\\BaseTest.cs",
               "RelativeDocumentMoniker": "TestProjectUnit\\Base\\BaseTest.cs",
@@ -152,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "TestCP05.cs",
               "DocumentMoniker": "D:\\Codigos Fuente\\SELENIUM\\TestProjectUnit\\Tests\\TestCP05.cs",
               "RelativeDocumentMoniker": "TestProjectUnit\\Tests\\TestCP05.cs",
@@ -164,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "D:\\Codigos Fuente\\SELENIUM\\PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -176,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "D:\\Codigos Fuente\\SELENIUM\\PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -188,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "20260501015947_AgregarNombreApellidoUsuario.cs",
               "DocumentMoniker": "D:\\Codigos Fuente\\SELENIUM\\PruebasMetricasProject\\Migrations\\20260501015947_AgregarNombreApellidoUsuario.cs",
               "RelativeDocumentMoniker": "PruebasMetricasProject\\Migrations\\20260501015947_AgregarNombreApellidoUsuario.cs",
@@ -200,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "20260501011653_InitialSQLite.cs",
               "DocumentMoniker": "D:\\Codigos Fuente\\SELENIUM\\PruebasMetricasProject\\Migrations\\20260501011653_InitialSQLite.cs",
               "RelativeDocumentMoniker": "PruebasMetricasProject\\Migrations\\20260501011653_InitialSQLite.cs",
