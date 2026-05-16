@@ -56,9 +56,23 @@ pipeline {
 					withCredentials([string(credentialsId: 'sonar-token', variable: 'SONAR_TOKEN')]) {
 						bat '''
 						SET SONAR_SCANNER=C:\\Users\\AlexanderCruz\\.dotnet\\tools\\dotnet-sonarscanner.exe
-						%SONAR_SCANNER% begin /k:"utb-selenium" /d:sonar.host.url=%SONAR_HOST_URL% /d:sonar.token=%SONAR_TOKEN%
+
+						%SONAR_SCANNER% begin ^
+						/k:"utb-selenium" ^
+						/d:sonar.host.url=%SONAR_HOST_URL% ^
+						/d:sonar.token=%SONAR_TOKEN% ^
+						/d:sonar.cs.opencover.reportsPaths="**/coverage.opencover.xml" ^
+						/d:sonar.exclusions="**/CoverageReport/**,**/*.html,**/*Selenium*/**"
+
 						dotnet build
-						%SONAR_SCANNER% end /d:sonar.token=%SONAR_TOKEN%
+
+						dotnet test ".\\TestPruebasSonarqube\\TestPruebasSonarqube.csproj" ^
+						/p:CollectCoverage=true ^
+						/p:CoverletOutputFormat=opencover ^
+						/p:CoverletOutput="TestPruebasSonarqube\\coverage\\coverage.opencover.xml"
+
+						%SONAR_SCANNER% end ^
+						/d:sonar.token=%SONAR_TOKEN%
 						'''
 					}
 				}
