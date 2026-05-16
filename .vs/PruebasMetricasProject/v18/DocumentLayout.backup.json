@@ -54,8 +54,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -64,7 +68,7 @@
               "RelativeDocumentMoniker": "TestProjectUnit\\Pages\\RegistroPage.cs",
               "ToolTip": "D:\\Codigos Fuente\\SELENIUM\\TestProjectUnit\\Pages\\RegistroPage.cs",
               "RelativeToolTip": "TestProjectUnit\\Pages\\RegistroPage.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAwCMAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T03:19:04.361Z",
               "EditorCaption": ""
@@ -115,8 +119,7 @@
               "RelativeToolTip": "TestProjectUnit\\Tests\\TestCP01.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwCAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T02:26:12.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-15T02:26:12.671Z"
             },
             {
               "$type": "Document",
@@ -129,10 +132,6 @@
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T02:16:51.457Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
@@ -156,8 +155,7 @@
               "RelativeToolTip": "PruebasMetricasProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAwwH4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T03:41:38.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T03:41:38.771Z"
             },
             {
               "$type": "Document",
