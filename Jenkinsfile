@@ -56,32 +56,51 @@ pipeline {
         }
 
         stage('Selenium Tests') {
-			steps {
-				bat '''
-				echo ================================
-				echo INICIANDO APP PARA SELENIUM
-				echo ================================
+            steps {
+                // Escribir el script de espera como archivo .ps1 para evitar problemas de comillas
+                writeFile file: 'wait-for-app.ps1', text: '''
+$timeout = 120
+$elapsed = 0
+Write-Host "Esperando que la app responda en http://localhost:5000..."
+do {
+    Start-Sleep -Seconds 3
+    $elapsed += 3
+    try {
+        Invoke-WebRequest http://localhost:5000 -UseBasicParsing -TimeoutSec 2 | Out-Null
+        Write-Host "App lista! ($elapsed s)"
+        exit 0
+    } catch {
+        Write-Host "Esperando... ($elapsed s)"
+    }
+} while ($elapsed -lt $timeout)
+Write-Host "Timeout: la app no respondio en $timeout segundos"
+exit 1
+'''
+                bat '''
+                echo ================================
+                echo INICIANDO APP PARA SELENIUM
+                echo ================================
 
-				start /B dotnet run --project PruebasMetricasProject --urls=http://localhost:5000 --no-build
+                start /B dotnet run --project PruebasMetricasProject --urls=http://localhost:5000 --no-build
 
-				echo Esperando que la app responda en http://localhost:5000...
-				powershell -Command "& { $timeout = 120; $elapsed = 0; do { Start-Sleep -Seconds 3; $elapsed += 3; try { $r = Invoke-WebRequest http://localhost:5000 -UseBasicParsing -TimeoutSec 2; Write-Host 'App lista!'; exit 0 } catch { Write-Host \"Esperando... ($elapsed s)\" } } while ($elapsed -lt $timeout); Write-Host 'Timeout esperando la app'; exit 1 }"
-				if errorlevel 1 exit 1
+                powershell -ExecutionPolicy Bypass -File wait-for-app.ps1
+                if errorlevel 1 exit 1
 
-				echo ================================
-				echo EJECUTANDO TESTS SELENIUM
-				echo ================================
+                echo ================================
+                echo EJECUTANDO TESTS SELENIUM
+                echo ================================
 
-				dotnet test ".\\TestProjectUnit\\TestProjectUnit.csproj" --filter Category=Selenium
+                dotnet test ".\\TestProjectUnit\\TestProjectUnit.csproj" --filter Category=Selenium
 
-				echo ================================
-				echo DETENIENDO APP
-				echo ================================
+                echo ================================
+                echo DETENIENDO APP
+                echo ================================
 
-				taskkill /IM PruebasMetricasProject.exe /F || exit 0
-				'''
-			}
-		}
+                taskkill /IM PruebasMetricasProject.exe /F || exit 0
+                '''
+            }
+        }
+
     }
 
     post {
