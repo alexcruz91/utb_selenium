@@ -863,3 +863,4 @@ C:\Users\Alejandro\Downloads\pruebasproyecto\PruebasMetricasProject\obj\Debug\ne
 C:\Users\Alejandro\Downloads\pruebasproyecto\PruebasMetricasProject\obj\Debug\net8.0\PruebasMetricasProject.pdb
 C:\Users\Alejandro\Downloads\pruebasproyecto\PruebasMetricasProject\obj\Debug\net8.0\PruebasMetricasProject.genruntimeconfig.cache
 C:\Users\Alejandro\Downloads\pruebasproyecto\PruebasMetricasProject\obj\Debug\net8.0\ref\PruebasMetricasProject.dll
+D:\Codigos Fuente\SELENIUM\PruebasMetricasProject\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

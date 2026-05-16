@@ -12,7 +12,13 @@ namespace TestProjectUnit.Base
         {
             string url = Environment.GetEnvironmentVariable("TEST_URL")
              ?? "https://localhost:44387/Identity/Account/Register";
-            driver = new ChromeDriver();
+            var options = new ChromeOptions();
+
+            options.AddArgument("--headless=new");
+            options.AddArgument("--no-sandbox");
+            options.AddArgument("--disable-dev-shm-usage");
+            options.AddArgument("--remote-allow-origins=*");
+            driver = new ChromeDriver(options);
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl(url);
         }
@@ -24,7 +30,6 @@ namespace TestProjectUnit.Base
             {
                 driver.Quit();
                 driver.Dispose();
-                driver = null;
             }
         }
     }
