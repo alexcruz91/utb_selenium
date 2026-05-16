@@ -58,36 +58,23 @@ pipeline {
        stage('Run App') {
 			steps {
 				bat '''
-				start "" cmd /c "dotnet run --project PruebasMetricasProject --urls=http://localhost:5000"
-
-				echo Esperando que la aplicacion inicie...
-
-				:waitloop
-				powershell -Command ^
-				"try { ^
-					Invoke-WebRequest http://localhost:5000 -UseBasicParsing | Out-Null; ^
-					exit 0 ^
-				} catch { ^
-					exit 1 ^
-				}"
-
-				if errorlevel 1 (
-					timeout /t 5 > nul
-					goto waitloop
-				)
-
-				echo Aplicacion iniciada correctamente
+				start /B dotnet run --project PruebasMetricasProject --urls=http://localhost:5000
+				ping 127.0.0.1 -n 30 > nul
 				'''
 			}
 		}
 
 		stage('Selenium Tests') {
 			steps {
-				timeout(time: 10, unit: 'MINUTES') {
-					catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
-						bat 'dotnet test ".\\TestProjectUnit\\TestProjectUnit.csproj" --filter Category=Selenium'
-					}
+				catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
+					bat 'dotnet test ".\\TestProjectUnit\\TestProjectUnit.csproj" --filter Category=Selenium'
 				}
+			}
+		}
+
+		stage('Stop App') {
+			steps {
+				bat 'taskkill /IM PruebasMetricasProject.exe /F || exit 0'
 			}
 		}
     }
