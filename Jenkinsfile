@@ -57,9 +57,24 @@ pipeline {
 
        stage('Run App') {
 			steps {
-				bat '''
-				start /B dotnet run --project PruebasMetricasProject --urls=http://localhost:5000
-				ping 127.0.0.1 -n 15 > nul
+				bat 'start /B dotnet run --project PruebasMetricasProject --urls=http://localhost:5000'
+				powershell '''
+					$timeout = 120
+					$elapsed = 0
+					Write-Host "Esperando que la app responda en http://localhost:5000..."
+					do {
+						Start-Sleep -Seconds 3
+						$elapsed += 3
+						try {
+							Invoke-WebRequest http://localhost:5000 -UseBasicParsing -TimeoutSec 2 | Out-Null
+							Write-Host "App lista! ($elapsed s)"
+							exit 0
+						} catch {
+							Write-Host "Esperando... ($elapsed s)"
+						}
+					} while ($elapsed -lt $timeout)
+					Write-Host "Timeout: la app no respondio"
+					exit 1
 				'''
 			}
 		}
