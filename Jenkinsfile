@@ -61,27 +61,32 @@ pipeline {
                 echo ================================
                 echo INICIANDO APP PARA SELENIUM
                 echo ================================
-
-                start /B dotnet run --project PruebasMetricasProject --urls=http://localhost:5000
-
-                echo Esperando que la app inicie...
-                ping 127.0.0.1 -n 10 > nul
-
+ 
+                start /B dotnet run --project PruebasMetricasProject --urls=http://localhost:5000 --no-build
+ 
+                echo Esperando que la app responda en http://localhost:5000...
+                :WAIT
+                powershell -Command "try { Invoke-WebRequest http://localhost:5000 -UseBasicParsing | Out-Null; exit 0 } catch { exit 1 }"
+                if errorlevel 1 (
+                    ping 127.0.0.1 -n 3 > nul
+                    goto WAIT
+                )
+                echo App lista!
+ 
                 echo ================================
                 echo EJECUTANDO TESTS SELENIUM
                 echo ================================
-
-                dotnet test --filter Category=Selenium
-
+ 
+                dotnet test ".\\TestProjectUnit\\TestProjectUnit.csproj" --filter Category=Selenium
+ 
                 echo ================================
                 echo DETENIENDO APP
                 echo ================================
-
+ 
                 taskkill /IM PruebasMetricasProject.exe /F || exit 0
                 '''
             }
         }
-
     }
 
     post {
